@@ -1,10 +1,7 @@
-# preventive-care-analytics-dashboard
+# Preventive Care Analytics Dashboard
 End-to-end healthcare analytics project using SQL, Python, and Power BI to analyze preventive care compliance and gaps
 
-
-# 🏥 Preventive Care Analytics Dashboard
-
-## 📌 Project Overview
+## Project Overview
 This project analyzes preventive healthcare data to evaluate patient compliance, identify care gaps, and highlight high-risk groups.
 
 It is an end-to-end data analytics project using:
@@ -12,25 +9,19 @@ It is an end-to-end data analytics project using:
 - Python (data cleaning)
 - Power BI (dashboard)
 
----
-
-## 🎯 Objectives
+## Objectives
 - Measure patient compliance with preventive care
 - Identify care gaps (Due, Missed, Overdue)
 - Track monthly trends
 - Analyze risk by age group
 - Provide actionable insights
 
----
-
-## 🛠️ Tools Used
+## Tools Used
 - SQL  
 - Python (Pandas)  
 - Power BI  
 
----
-
-## 📊 Dashboard Features
+## Dashboard Features
 
 ### KPIs
 - Total Patients  
@@ -39,15 +30,11 @@ It is an end-to-end data analytics project using:
 - Overdue Rate  
 - Full Compliance %  
 
----
-
 ### Visuals
 - Monthly Compliance Trend  
 - Compliance Rate by Preventive Care  
 - Gap Rate by Preventive Care  
 - Care Gap Distribution by Age Group  
-
----
 
 ### Filters
 - Care Name  
@@ -55,35 +42,29 @@ It is an end-to-end data analytics project using:
 - Gender  
 - Reporting Period  
 
----
-
 ## 🧠 Key Insights
 - Some preventive care types have lower compliance
 - Many patients fall into overdue category
 - Older age groups have higher care gaps
 - Compliance varies over time
 
----
+## Data Workflow
 
-## ⚙️ Data Workflow
-
-### Step 1: SQL
-- Extract patient and care data
-- Prepare structured dataset
-
-### Step 2: Python
+### Step 1: Python
 - Clean data
 - Handle missing values
 - Create Age Groups
+- 
+### Step 2: SQL
+- Extract patient and care data
+- Prepare structured dataset
 
 ### Step 3: Power BI
 - Build data model
 - Create DAX measures
 - Design dashboard
 
----
-
-## 📐 Important DAX Measures
+## Important DAX Measures
 
 ### Compliance Rate
 DIVIDE([Completed Care], [Due Care], 0)
@@ -100,34 +81,16 @@ DISTINCTCOUNT(patients[patient_id]),
 0
 )
 
-
-
----
-
-## 🚀 How to Use
-
-1. Open Power BI file (.pbix)
-2. Load dataset
-3. Refresh data
-4. Use filters to explore insights
-
----
-
 ## 📷 Dashboard Preview
 <img width="1141" height="691" alt="image" src="https://github.com/user-attachments/assets/63ff9514-b85a-45d5-8df7-824bae0c9ba2" />
 
----
-
-## 📂 Files in Project
+## Files in Project
 - SQL Script
 - Python Notebook
-
----
+- PowerBI Dashboard Screenshot
 
 ## 👤 Author
 Priyanka
 
----
-
-## ⭐ Support
+## Support
 If you like this project, give it a star ⭐ on GitHub!
