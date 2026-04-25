@@ -54,7 +54,7 @@ It is an end-to-end data analytics project using:
 - Clean data
 - Handle missing values
 - Create Age Groups
-- 
+  
 ### Step 2: SQL
 - Extract patient and care data
 - Prepare structured dataset
