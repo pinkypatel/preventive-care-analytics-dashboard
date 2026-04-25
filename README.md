@@ -42,7 +42,7 @@ It is an end-to-end data analytics project using:
 - Gender  
 - Reporting Period  
 
-## 🧠 Key Insights
+## Key Insights
 - Some preventive care types have lower compliance
 - Many patients fall into overdue category
 - Older age groups have higher care gaps
@@ -81,7 +81,7 @@ DISTINCTCOUNT(patients[patient_id]),
 0
 )
 
-## 📷 Dashboard Preview
+## Dashboard Preview
 <img width="1141" height="691" alt="image" src="https://github.com/user-attachments/assets/63ff9514-b85a-45d5-8df7-824bae0c9ba2" />
 
 ## Files in Project
@@ -89,7 +89,7 @@ DISTINCTCOUNT(patients[patient_id]),
 - Python Notebook
 - PowerBI Dashboard Screenshot
 
-## 👤 Author
+## Author
 Priyanka
 
 ## Support
